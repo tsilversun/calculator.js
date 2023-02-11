@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="fnumber" id="firstnumber" name="First Number" placeholder="First Number">
+        <input type="text" class="snumber" id="secondnumber" name="second Number" placeholder="Second Number">
+
+        <table id="calcu">
+            <tr>
+                <td><button type="submit" onclick="plus()" class="plus">+</button></td>
+                <td><button type="submit" onclick="minus()" class="minus">-</button></td>
+                <td><button type="submit" onclick="times()" class="times">*</button></td>
+                <td><button type="submit" onclick="divide()" class="divide">/</button></td>
+            </tr>
+        </table>
+        <div id="result"></div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

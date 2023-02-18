@@ -4,22 +4,43 @@ body{
 }
 
 .container{
-    margin: 100 80 100 80;
-    padding: 40 20 40 20;
+    height: 300px;
+    width: 500px;
+    top: 50px;
+    left: 50px;
     position: absolute;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: lightskyblue;
     box-sizing: border-box;
-    box-shadow: powderblue;
-    background-color: azure;
+    border-color: cadetblue;
 }
 .fnumber{
+    margin-top: 4rem;
+    margin-left: 4rem;
     width: 20rem;
+    position:relative;
+    justify-items: center;
+    align-items: center;
+    border-radius: .5rem;
 }
 .snumber{
+    margin-top: .4rem;
+    margin-left: 4rem;
     width: 20rem;
     position: relative;
-    display: block;
+    border-radius: .5rem;
+}
+#result{
+    margin-top: .9rem;
+    margin-left: 5.8rem;
+    border-color: black;
+    border: 10px solid black;
+    
 }
 .plus{
+    margin-left: 4rem;
+    margin-left: 3.8rem;
     width: 2rem;
 }
 .minus{
